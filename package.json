@@ -1,0 +1,14 @@
+{
+  "name": "zx-typescript-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+  },
+  "author": "Thomas Kaul",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "10.4.0",
+    "zx": "4.3.0"
+  },
+  "dependencies": {}
+}
