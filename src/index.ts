@@ -1,4 +1,4 @@
 #!/usr/bin/env zx
-import 'zx/globals'
+import 'zx/globals';
 
 console.log('Hello World');
