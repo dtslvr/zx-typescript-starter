@@ -2,13 +2,14 @@
   "name": "zx-typescript-starter",
   "version": "1.0.0",
   "scripts": {
+    "format": "prettier --config .prettierrc --write \"src/**/*.ts\"",
     "start": "ts-node src/index.ts"
   },
   "author": "Thomas Kaul",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "2.5.1",
     "ts-node": "10.4.0",
     "zx": "4.3.0"
-  },
-  "dependencies": {}
+  }
 }
