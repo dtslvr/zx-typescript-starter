@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "format": "prettier --config .prettierrc --write \"src/**/*.ts\"",
-    "start": "ts-node src/index.ts"
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "author": "Thomas Kaul",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "2.5.1",
-    "ts-node": "10.4.0",
-    "zx": "4.3.0"
-  }
+    "prettier": "2.6.2",
+    "ts-node": "10.7.0",
+    "zx": "6.1.0"
+  },
+  "type": "module"
 }
