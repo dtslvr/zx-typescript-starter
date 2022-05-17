@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "format": "prettier --config .prettierrc --write \"src/**/*.ts\"",
-    "start": "node --loader ts-node/esm src/index.ts"
+    "start": "node --loader ts-node/esm --no-warnings src/index.ts"
   },
   "author": "Thomas Kaul",
   "license": "MIT",
