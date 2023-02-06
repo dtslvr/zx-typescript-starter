@@ -8,9 +8,9 @@
   "author": "Thomas Kaul",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "2.6.2",
-    "ts-node": "10.7.0",
-    "zx": "6.1.0"
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "zx": "^7.1.1"
   },
   "type": "module"
 }
